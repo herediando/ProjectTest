@@ -1,0 +1,40 @@
+.carousel .item {
+    width: 100%; 
+    max-height: 440px; 
+}
+.carousel .item img {
+    width: 70%; 
+    margin: 0 auto;
+
+}
+
+body {
+      font-size:14px; margin:0;
+}
+.contenedor {
+     margin:0 auto;
+     width:600px; 
+     text-align:center;
+}
+
+#formulario {
+	width: 70%; 
+     margin:0 auto;
+     border-radius:5px;
+     box-shadow:5px 5px 5px #000;
+     border:1px solid #000;
+     width:300px;
+     padding:25px;
+     background:#d1d1d1;
+}
+input {
+     border-radius:5px;
+     padding:8px;
+}
+button {
+     border-radius:5px;
+     padding:8px;
+     background:#000;
+     color:#fff;
+     cursor:pointer;
+}

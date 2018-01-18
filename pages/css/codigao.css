@@ -1,0 +1,58 @@
+body{
+	background-image:(ChavezA.png); font-family:Arial; color:black;
+}
+
+/* Root = Horizontal, Secondary = Vertical */
+ul#menu {
+	ba
+  margin: 0;
+  border: 0 none;
+  background: white;
+  padding: 0;
+/*  width: 500px;*/ /*For KHTML*/
+width:150px;
+  list-style: none;
+  height: 20px;
+  border:1px solid gray;
+  padding-bottom:5px;
+}
+
+ul#menu li {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  float: left; /*For Gecko*/
+  display: inline;
+  list-style: none;
+  position: relative;
+  height: 20px;
+}
+ul#menu li{
+	padding-bottom:5px;/* TAMAÑO DEL FONDO CITADO ABAJO*/
+}
+ul#menu li:hover{
+	background:#ddd;/* COLOR DE FONDO CUANDO SE VA A SELECCIONAR LA OPCION */
+}
+
+
+/* Root Menu */
+ul#menu a {
+  padding: 5px 15px 5px;
+  display: block;
+  color: #9fcf21; /*color del texto dentro del cuadro*/
+  text-decoration: none;
+  font-weight: bold;
+  font-family:Arial;
+  font-size:12px;
+  font-weight:bold;
+/*  border-right:1px solid #818181;*/
+  text-decoration: none;
+  height: auto !important;
+  height: 1%; /*For IE*/
+}
+
+
+#pie{text-align:center;
+	border-top:1px solid #eee;
+	margin-top:20px;}
+

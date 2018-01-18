@@ -1,0 +1,199 @@
+body{
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  }
+table{
+border: 0px solid BLUE;
+background-color: white;
+}
+table1{
+border: 6px solid BLUE;
+background-color: white;
+}
+ul#menu {
+	ba
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+/*  width: 500px;*/ /*For KHTML*/
+  width:900px;
+  background-color:blue;
+  list-style: none;
+  height: 20px;
+  border:1px white;
+  padding-bottom:5px;
+}
+
+ul#menu li {
+  ba
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  float: left; /*For Gecko*/
+  display: inline;
+  list-style: none;
+  position: relative;
+  height: 20px;
+}
+ul#menu li{
+	padding-bottom:5px;
+}
+ul#menu li:hover{
+	
+	background:#CEE4FF;
+}
+
+ul#menu  ul {
+  margin: 0;
+  border:  none;
+  padding: 0;
+  width: 160px;
+  list-style:circle;	
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  background:#B3D5FF;
+  border: none;
+  opacity: 1.8;
+  -moz-opacity: 1.8;
+  filter:alpha(opacity=80);
+}
+
+ul#menu ul:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul#menu ul li {
+  width: 165px;
+  float: left; /*For IE 7 lack of compliance*/
+  display: block !important;
+  display: inline; /*For IE*/
+}
+
+/* Root Menu */
+ul#menu a {
+  padding: 5px 15px 5px;
+  float: none !important; /*For Opera*/
+  float: left; /*For IE*/
+  display: block;
+  color:white;	
+  text-decoration: none;
+  font-weight: bold;
+  font-family:Arial;
+  font-size:12px;
+  font-weight:bold;
+/*  border-right:1px solid #818181;*/
+  text-decoration: none;
+  height: auto !important;
+  height: 1%; /*For IE*/
+}
+
+/* Root Menu Hover Persistence */
+ul#menu a:hover,
+ul#menu li:hover a,
+ul#menu li.iehover a {
+color:#1158FF;
+
+}
+
+/* 2nd Menu */
+ul#menu li:hover li a,
+ul#menu li.iehover li a {
+  float: none;
+  border:none;
+}
+
+/* 2nd Menu Hover Persistence */
+ul#menu li:hover li a:hover,
+ul#menu li:hover li:hover a,
+ul#menu li.iehover li a:hover,
+ul#menu li.iehover li.iehover a {
+ background:#999999;
+  color:white;
+}
+
+/* 3rd Menu */
+ul#menu li:hover li:hover li a,
+ul#menu li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 3rd Menu Hover Persistence */
+
+ul#menu li:hover li:hover li a:hover,
+ul#menu li:hover li:hover li:hover a,
+ul#menu li.iehover li.iehover li a:hover,
+ul#menu li.iehover li.iehover li.iehover a {
+background:#ddd;
+  color:white;
+}
+
+/* 4th Menu */
+ul#menu li:hover li:hover li:hover li a,
+ul#menu li.iehover li.iehover li.iehover li a {
+background:#ddd;
+  color: #666;
+}
+
+/* 4th Menu Hover */
+ul#menu li:hover li:hover li:hover li a:hover,
+ul#menu li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color:white;
+}
+
+ul#menu ul ul,
+ul#menu ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 190px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#menu li:hover ul ul,
+ul#menu li:hover ul ul ul,
+ul#menu li.iehover ul ul,
+ul#menu li.iehover ul ul ul {
+  display: none;
+}
+
+ul#menu li:hover ul,
+ul#menu ul li:hover ul,
+ul#menu ul ul li:hover ul,
+ul#menu li.iehover ul,
+ul#menu ul li.iehover ul,
+ul#menu ul ul li.iehover ul {
+  display: block;
+}
+ul#menu .selected{
+	color:white;
+} 
+
+.Estilo1 {color: #00FF00}
+.Estilo2 {color: #FF0000}
+.Estilo3 {color: #000000}
+
+
+#pie{text-align:center;
+	border-top:1px solid #eee;
+	margin-top:20px;}
+	
+	
+button {
+     border-radius:5px;
+     padding:8px;
+     background:#000;
+     color:#fff;
+     cursor:pointer;
+}
