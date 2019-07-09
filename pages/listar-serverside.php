@@ -1,8 +1,5 @@
 <?php 
-
-
 include ("conexion.php");
-
 $start = $_POST["start"];
 $length = $_POST["length"];
 $draw = $_POST["draw"];

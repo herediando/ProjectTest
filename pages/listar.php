@@ -1,6 +1,5 @@
 <?php
 	include ("conexion2.php");
-
 	$query = "SELECT * FROM usuario;";
 	$resultado = mysqli_query($conexion, $query);
 	
@@ -13,6 +12,5 @@
 		}
 		echo json_encode($array);
 	}
-
 	mysqli_free_result( $resultado );
 	mysqli_close( $conexion );

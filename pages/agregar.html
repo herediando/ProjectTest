@@ -5,50 +5,23 @@ include ("Header.inc");
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Proyecto Final</title>
-
-    <!-- Bootstrap Core CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- MetisMenu CSS -->
     <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
-
-    <!-- Timeline CSS -->
     <link href="../dist/css/timeline.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
     <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
-
-    <!-- Morris Charts CSS -->
     <link href="../bower_components/morrisjs/morris.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
     <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
     <link href="../pages/carousel.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
-<center>  <img src="images/logotipo.png" width="20%" height="20%"></center> 
-
+<center> <img src="images/logotipo.png" width="20%" height="20%"></center>
 <body>
-
     <div id="wrapper">
-
-        <!-- Navigation -->
         <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -59,14 +32,10 @@ include ("Header.inc");
                 </button>
                 <a class="navbar-brand" href="InicioUsuario.php"><span class="glyphicon glyphicon-home"></span></a>
             </div>
-            <!-- /.navbar-header -->
-
             <ul class="nav navbar-top-links navbar-right">
-                
-                <!-- /.dropdown -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         <li><a href="#"><i class="fa fa-user fa-fw"></i> Usuario</a>
@@ -74,12 +43,8 @@ include ("Header.inc");
                         <li><a href=logout.php?salir=cerrar><i class="fa fa-sign-out fa-fw"></i> Cerrar Sesión</a>
                         </li>
                     </ul>
-                    <!-- /.dropdown-user -->
                 </li>
-                <!-- /.dropdown -->
             </ul>
-            <!-- /.navbar-top-links -->
-
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
@@ -87,16 +52,15 @@ include ("Header.inc");
                             <div class="input-group custom-search-form">
                                 <input type="text" class="form-control" placeholder="Search...">
                                 <span class="input-group-btn">
-                                <button class="btn btn-default" type="button">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </span>
+                                    <button class="btn btn-default" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span>
                             </div>
-                            <!-- /input-group -->
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-group fa-fw"></i> Comercios<span class="fa arrow"></span></a>
-                              <ul class="nav nav-second-level">
+                            <ul class="nav nav-second-level">
                                 <li>
                                     <a href="agregar.html">Agregar</a>
                                 </li>
@@ -107,7 +71,6 @@ include ("Header.inc");
                                     <a href="eliminar.html">Eliminar</a>
                                 </li>
                             </ul>
-
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-home fa-fw"></i> Viviendas<span class="fa arrow"></span></a>
@@ -122,10 +85,8 @@ include ("Header.inc");
                                     <a href="morris.html">Eliminar</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
                         </li>
-
-                         <li>
+                        <li>
                             <a href="#"><i class="fa fa-road fa-fw"></i> Servicios<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
@@ -138,13 +99,13 @@ include ("Header.inc");
                                     <a href="morris.html">Eliminar</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
                         </li>
                         <li>
                             <a href="tables.html"><i class="fa fa-file-o fa-fw"></i> Constancias</a>
                         </li>
-                       <li>
-                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Proceso Electoral<span class="fa arrow"></span></a>
+                        <li>
+                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Proceso Electoral<span
+                                    class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="flot.html">Resumen</a>
@@ -156,9 +117,9 @@ include ("Header.inc");
                                     <a href="morris.html">Cuaderno</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
-                            <li>
-                            <a href="#"><i class="fa fa-th-large fa-fw"></i> Consejo Comunal<span class="fa arrow"></span></a>
+                        <li>
+                            <a href="#"><i class="fa fa-th-large fa-fw"></i> Consejo Comunal<span
+                                    class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="panels-wells.html">Agregar</a>
@@ -167,11 +128,11 @@ include ("Header.inc");
                                     <a href="buttons.html">Modificar</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
                         </li>
 
                         <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Resultados<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Resultados<span
+                                    class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="panels-wells.html">Estadisticas</a>
@@ -180,12 +141,12 @@ include ("Header.inc");
                                     <a href="buttons.html">Selección Alternativa</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
                         </li>
                         <li>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-cog fa-fw"></i> Asistencia Tecnica<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-cog fa-fw"></i> Asistencia Tecnica<span
+                                    class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="panels-wells.html">Manual de Usuario</a>
@@ -194,24 +155,19 @@ include ("Header.inc");
                                     <a href="buttons.html">Contactenos</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
                         </li>
                     </ul>
                 </div>
-                <!-- /.sidebar-collapse -->
             </div>
-            <!-- /.navbar-static-side -->
         </nav>
-
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-20">
-                    <center><h1 class="page-header">Comercios</h1></center>
+                    <center>
+                        <h1 class="page-header">Comercios</h1>
+                    </center>
                 </div>
-                <!-- /.col-lg-12 -->
             </div>
-            
-            <!-- /.row -->
             <div class="row">
                 <div class="col-lg-14">
                     <div class="panel panel-default">
@@ -220,326 +176,302 @@ include ("Header.inc");
                         </div>
                         <div class="panel-body">
                             <div class="row">
-           <center> <form role='form'>         
-              <div class="col-lg-3">
-                <label>Cédula<font color="#FF0000">*</font></label>
-                <input class="form-control" name="cedula" placeholder="Ingrese Cédula" required>
-               </div>
-               
-               <div class="col-lg-2">
-               <label>Primer Nombre<font color="#FF0000">*</font></label>
-                <input class="form-control" name="primernombre" placeholder="Ingrese Nombre" required>
-               </div>
-               
-                <div class="col-lg-2">
-               <label>Segundo Nombre</label>
-                <input class="form-control" name="segundonombre">
-                </div>            
-                
-                <div class="col-lg-2">
-               <label>Primer Apellido<font color="#FF0000">*</font></label>
-                <input class="form-control" placeholder="Ingrese Apellido" name="primerapellido" required>
-               </div>
+                                <center>
+                                    <form role='form'>
+                                        <div class="col-lg-3">
+                                            <label>Cédula<font color="#FF0000">*</font></label>
+                                            <input class="form-control" name="cedula" placeholder="Ingrese Cédula"
+                                                required>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label>Primer Nombre<font color="#FF0000">*</font></label>
+                                            <input class="form-control" name="primernombre" placeholder="Ingrese Nombre"
+                                                required>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label>Segundo Nombre</label>
+                                            <input class="form-control" name="segundonombre">
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label>Primer Apellido<font color="#FF0000">*</font></label>
+                                            <input class="form-control" placeholder="Ingrese Apellido"
+                                                name="primerapellido" required>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <label>Segundo Apellido</label>
+                                            <input class="form-control" name="segundoapellido">
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <label>Fecha de Nacimiento<font color="#FF0000">*</font></label>
+                                            <input type="date" class="form-control" name="fechanacimiento" required>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label>Nacionalidad</label>
+                                            <select name="nacionalidad" class="form-control" required>
+                                                <option>---Seleccione---</option>
+                                                <option>Venezolana</option>name="fechanacimiento"
+                                                <option>Extranjero</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label>Sexo</label><br>
+                                            <label class="radio-inline">
+                                                <?php if (isset($sexo) && $sexo=="Masculino") echo "checked";?>
+                                                <input type="radio" name="sexo" value="option1" checked>M
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="sexo" value="option2" checked>F
+                                                <?php if (isset($sexo) && $sexo=="Femenino") echo "checked";?>
+                                            </label>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label>Nivel de Instrucción</label>
+                                            <select name="nivelacademico" class="form-control">
+                                                <option>---Seleccione---</option>
+                                                <option>Analfabeto</option>
+                                                <option>6to grado</option>
+                                                <option>bachiller</option>
+                                                <option>universitario</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <label>Parentesco</label>
+                                            <select name="parentesco" class="form-control">
+                                                <option>---Seleccione---</option>
+                                                <option>Jefe de Familia</option>
+                                                <option>Conyuge</option>
+                                                <option>Hijo</option>
+                                                <option>Hija</option>
+                                                <option>Hermano</option>
+                                                <option>Hermana</option>
+                                                <option>Sobrino</option>
+                                                <option>Sobrina</option>
+                                                <option>Madre</option>
+                                                <option>Padre</option>
+                                                <option>Nieto</option>
+                                                <option>Nieta</option>
+                                                <option>Primo</option>
+                                                <option>Prima</option>
+                                                <option>Abuela</option>
+                                                <option>Abuelo</option>
+                                                <option>Tio</option>
+                                                <option>Tia</option>
+                                                <option>Biseabuela</option>
+                                                <option>Biseabuelo</option>
+                                                <option>Yerna</option>
+                                                <option>Yerno</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <label>Profesión u Oficio</label>
+                                            <input class="form-control" name="profesionoficio" required>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label>Teléfono Casa</label>
+                                            <input class="form-control" name="telefonocasa">
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label>Teléfono celular</label>
+                                            <input class="form-control" name="telefonocelular">
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label>Teléfono oficina</label>
+                                            <input class="form-control" name="telefonooficina">
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <label>Correo electrónico</label>
+                                            <input class="form-control" name="correo">
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <label for="disabledSelect">Estado Civil</label>
+                                            <select id="disabledSelect" class="form-control" name="estadocivil">
+                                                <option>---Seleccione---</option>
+                                                <option> Soltera </option>
+                                                <option> Soltero </option>
+                                                <option> Casada </option>
+                                                <option> Casado </option>
+                                                <option> Divorciada </option>
+                                                <option> Divorciado </option>
+                                                <option> Viudo </option>
+                                                <option> Viuda </option>
+                                                <option> Concubina </option>
+                                                <option> Concubino </option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label>Trabaja</label><br>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="trabaja" id="optionsRadiosInline1"
+                                                    value="option1" checked>Si
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="trabaja" id="optionsRadiosInline2"
+                                                    value="option2">No
+                                            </label>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label for="disabledSelect">Donde Trabaja</label>
+                                            <select name="dondetrabaja" class="form-control">
+                                                <option value="">---Seleccione---</option>
+                                                <option value="">Empresa Pública</option>
+                                                <option value="">Empresa Privada</option>
+                                                <option value="">Independiente</option>
+                                            </select>
+                                        </div>
 
-                <div class="col-lg-3">
-              <label>Segundo Apellido</label>
-              <input class="form-control" name="segundoapellido">
-               </div>
+                                        <div class="col-lg-2">
+                                            <label>Pensionado</label><br>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="pension" id="optionsRadiosInline1"
+                                                    value="option1" checked>Si
+                                                <?php if (isset($pension) && $pension=="SI") echo "checked";?>
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="pension" id="optionsRadiosInline2"
+                                                    value="option2">No
+                                                <?php if (isset($pension) && $pension=="NO") echo "checked";?>
+                                            </label>
+                                        </div>
 
-                <div class="col-lg-3">
-              <label>Fecha de Nacimiento<font color="#FF0000">*</font></label>
-              <input type="date" class="form-control" name="fechanacimiento" required>
-               </div>
-         
-               <div class="col-lg-2">         
-                <label>Nacionalidad</label>
-                <select name="nacionalidad" class="form-control" required>
-                <option>---Seleccione---</option>
-                <option>Venezolana</option>name="fechanacimiento"
-                <option>Extranjero</option>
-                </select>
-               </div>
-           
-           <div class="col-lg-2">
-            <label>Sexo</label><br>
-            <label class="radio-inline">
-            <?php if (isset($sexo) && $sexo=="Masculino") echo "checked";?>
-            <input type="radio" name="sexo" value="option1" checked>M
-            </label>
-            <label class="radio-inline">
-            <input type="radio" name="sexo" value="option2" checked>F
-            <?php if (isset($sexo) && $sexo=="Femenino") echo "checked";?>
-            </label>
-            </div>
-                     
-           
-           <div class="col-lg-2">
-                <label>Nivel de Instrucción</label>
-                <select name="nivelacademico" class="form-control">
-                <option>---Seleccione---</option>
-                <option>Analfabeto</option>
-                <option>6to grado</option>
-                <option>bachiller</option>
-                <option>universitario</option>
-                </select>
-           </div>
-           
-           <div class="col-lg-3">
-               <label>Parentesco</label>
-               <select name="parentesco" class="form-control">
-                <option>---Seleccione---</option>
-                <option>Jefe de Familia</option>
-                <option>Conyuge</option>
-   <option>Hijo</option>
-   <option>Hija</option>
-   <option>Hermano</option>
-   <option>Hermana</option>
-   <option>Sobrino</option>
-   <option>Sobrina</option>
-   <option>Madre</option>
-   <option>Padre</option>
-   <option>Nieto</option>
-   <option>Nieta</option>
-   <option>Primo</option>
-   <option>Prima</option>
-   <option>Abuela</option>
-   <option>Abuelo</option>
-   <option>Tio</option>
-   <option>Tia</option>
-   <option>Biseabuela</option>
-   <option>Biseabuelo</option>
-   <option>Yerna</option>
-   <option>Yerno</option>
-               </select>
-           </div>
-           
-           <div class="col-lg-3">
-              <label>Profesión u Oficio</label>
-              <input class="form-control" name="profesionoficio" required>
-           </div>
-           
-           <div class="col-lg-2">
-            <label>Teléfono Casa</label>
-            <input class="form-control" name="telefonocasa">
-            </div>
-               
-               <div class="col-lg-2">
-               <label>Teléfono celular</label>
-               <input class="form-control" name="telefonocelular">      
-           </div>
+                                        <div class="col-lg-3">
+                                            <label>Institución otorgante</label>
+                                            <input class="form-control" name="otorgopension">
+                                        </div>
 
-           <div class="col-lg-2">
-               <label>Teléfono oficina</label>
-                <input class="form-control" name="telefonooficina">
-               </div>
-               
-               <div class="col-lg-3">
-               <label>Correo electrónico</label>
-                <input class="form-control" name="correo">
-               </div>
+                                        <div class="col-lg-3">
+                                            <label>Jubilado</label><br>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="jubilado" value="option1" checked>Si
+                                                <?php if (isset($jubilado) && $jubilado=="SI") echo "checked";?>
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="jubilado" id="optionsRadiosInline2"
+                                                    value="option2">No
+                                                <?php if (isset($jubilado) && $jubilado=="NO") echo "checked";?>
+                                            </label></div>
 
-               <div class="col-lg-3">
-                <label for="disabledSelect">Estado Civil</label>
-                 <select id="disabledSelect" class="form-control" name="estadocivil">
-                <option>---Seleccione---</option>
-                 <option> Soltera </option>
-   <option> Soltero </option>
-   <option> Casada </option>
-   <option> Casado </option>
-   <option> Divorciada </option>
-   <option> Divorciado </option>
-   <option> Viudo </option>
-   <option> Viuda </option>
-   <option> Concubina </option>
-   <option> Concubino </option>
-                </select>
-               </div>
-               
-               <div class="col-lg-2">
-                <label>Trabaja</label><br>
-               <label class="radio-inline">
-               <input type="radio" name="trabaja" id="optionsRadiosInline1" value="option1" checked>Si
-                </label>
-               <label class="radio-inline">
-                <input type="radio" name="trabaja" id="optionsRadiosInline2" value="option2">No
-                </label>
-               </div>
+                                        <div class="col-lg-2">
+                                            <label>Institución otorgante</label>
+                                            <input class="form-control" name="otorgojubilacion">
+                                        </div>
 
-                <div class="col-lg-2">
-                <label for="disabledSelect">Donde Trabaja</label>
-                <select name="dondetrabaja" class="form-control">
-                <option value="">---Seleccione---</option>
-                <option value="">Empresa Pública</option>
-                 <option value="">Empresa Privada</option>
-                 <option value="">Independiente</option>
-                 </select>
+                                        <div class="col-lg-2">
+                                            <label for="disabledSelect">Discapacidad</label>
+                                            <select id="disabledSelect" name="discapacidad[]" multiple="si"
+                                                class="form-control">
+                                                <option value="">---Seleccione---</option>
+                                                <option value="">No</option>
+                                                <option> AUDITIVA </option>
+                                                <option> AUTISMO</option>
+                                                <option> BRAZOS</option>
+                                                <option> CEGUERA TOTAL</option>
+                                                <option> MENTAL</option>
+                                                <option> MOTORA </option>
+                                                <option> PIERNAS</option>
+                                                <option> PSIQUICA </option>
+                                                <option> SENSORIAL</option>
+                                                <option> SINDROME DE DOWN</option>
+                                                <option> SORDERA TOTAL</option>
+                                                <option> VISUAL </option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-lg-2">
+                                            <label for="disabledSelect">Padece Enfermedad</label>
+                                            <select name="enfermedad[]" multiple="si" class="form-control">
+                                                <option value="">---Seleccione---</option>
+                                                <option> Alergia</option>
+                                                <option> Asma</option>
+                                                <option> Cancer</option>
+                                                <option> Corazon</option>
+                                                <option> Dengue</option>
+                                                <option> Desnutricion</option>
+                                                <option> Diabetes</option>
+                                                <option> Diarrea</option>
+                                                <option> Epilepsia</option>
+                                                <option> Hepatitis</option>
+                                                <option> Tension Alta</option>
+                                                <option> Tension Baja</option>
+                                                <option> Influenza</option>
+                                                <option> Leucemia</option>
+                                                <option> Meningitis</option>
+                                                <option> Neumonia</option>
+                                                <option> SIDA</option>
+                                                <option> Sistema Cardiaco</option>
+                                                <option> Tuberculosis</option>
+                                                <option> Osteoporosis</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-lg-3">
+                                            <label>Aporta FAOV</label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="aportafaovlph" id="optionsRadiosInline1"
+                                                    value="option1" checked>Si
+                                                <?php if (isset($aportafaovlph) && $aportafaovlph=="SI") echo "checked";?>
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="aportafaovlph" id="optionsRadiosInline2"
+                                                    value="option2">No
+                                                <?php if (isset($aportafaovlph) && $aportafaovlph=="NO") echo "checked";?>
+                                            </label>
+                                        </div>
+
+                                        <div class="col-lg-3">
+                                            <label>Inscrito cne</label><br>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="cne" id="optionsRadiosInline1" value="option1"
+                                                    checked>Si
+                                                <?php if (isset($cne) && $cne=="SI") echo "checked";?>
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="cne" id="optionsRadiosInline2"
+                                                    value="option2">No
+                                                <?php if (isset($cne) && $cne=="NO") echo "checked";?>
+                                            </label>
+                                        </div>
+
+                                        <div class="col-lg-3">
+                                            <label>Fecha Res. Comunidad</label>
+                                            <input type="date" class="form-control" name="fechacomunidad" required>
+                                        </div>
+
+                                        <div class="col-lg-2">
+                                            <label>Cédula jefe familia</label>
+                                            <input class="form-control" placeholder="Ingrese Cédula" name="cedulajefe">
+                                            <?php if (isset($cedulajefe)) echo "checked";?>
+                                        </div>
+
+                                        <div class="col-lg-2">
+                                            <label>Cédula padre</label>
+                                            <input class="form-control" name="cedulapadre" placeholder="Ingrese Cédula">
+                                            <?php if (isset($cedulapadre)) echo "checked";?>
+                                        </div>
+
+                                        <div class="col-lg-2">
+                                            <label>Cédula madre</label>
+                                            <input class="form-control" name="cedulamadre" placeholder="Ingrese Cédula">
+                                            <?php if (isset($cedulamadre)) echo "checked";?>
+                                        </div>
+                                        <button type="submit" class="btn btn-default">
+                                            <span class="glyphicon glyphicon-ok"></span> Registrar
+                                        </button>
+                                        <button type="reset" class="btn btn-default">
+                                            <span class="glyphicon glyphicon-repeat"></span> Borrar
+                                        </button>
+                                    </form>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="col-lg-2">
-                <label>Pensionado</label><br>
-                <label class="radio-inline">
-                <input type="radio" name="pension" id="optionsRadiosInline1" value="option1" checked>Si
-                <?php if (isset($pension) && $pension=="SI") echo "checked";?>
-                 </label>
-                 <label class="radio-inline">
-                  <input type="radio" name="pension" id="optionsRadiosInline2" value="option2">No
-                  <?php if (isset($pension) && $pension=="NO") echo "checked";?>
-                 </label>
-                </div>
-
-                 <div class="col-lg-3">
-                <label>Institución otorgante</label>
-                <input class="form-control"name="otorgopension">
-                </div>
-
-                <div class="col-lg-3">
-                 <label>Jubilado</label><br>
-                  <label class="radio-inline">
-                  <input type="radio" name="jubilado" value="option1" checked>Si
-                  <?php if (isset($jubilado) && $jubilado=="SI") echo "checked";?> 
-                   </label>
-                <label class="radio-inline">
-                <input type="radio" name="jubilado" id="optionsRadiosInline2" value="option2">No
-                <?php if (isset($jubilado) && $jubilado=="NO") echo "checked";?>
-                </label></div>
-
-                <div class="col-lg-2">
-                 <label>Institución otorgante</label>
-                 <input class="form-control" name="otorgojubilacion">                                   
-                </div>
-
-                 <div class="col-lg-2">
-                <label for="disabledSelect">Discapacidad</label>
-                <select id="disabledSelect" name="discapacidad[]" multiple="si" class="form-control">
-                <option value="">---Seleccione---</option>
-                <option value="">No</option>
-               <option> AUDITIVA </option>
-         <option> AUTISMO</option>
-     <option> BRAZOS</option> 
-     <option> CEGUERA TOTAL</option>
-         <option> MENTAL</option>
-         <option> MOTORA </option>
-     <option> PIERNAS</option> 
-         <option> PSIQUICA </option>
-     <option> SENSORIAL</option> 
-         <option> SINDROME DE DOWN</option>     
-         <option> SORDERA TOTAL</option> 
-     <option> VISUAL </option> 
-                </select>
-                </div>
-
-                 <div class="col-lg-2">
-                <label for="disabledSelect">Padece Enfermedad</label>
-                <select name="enfermedad[]" multiple="si" class="form-control">
-                <option value="">---Seleccione---</option>
-                <option> Alergia</option>
-   <option> Asma</option>
-   <option> Cancer</option>
-   <option> Corazon</option>
-   <option> Dengue</option>
-   <option> Desnutricion</option>
-   <option> Diabetes</option>
-   <option> Diarrea</option>
-   <option> Epilepsia</option>
-   <option> Hepatitis</option>
-   <option> Tension Alta</option>
-   <option> Tension Baja</option>
-   <option> Influenza</option>
-   <option> Leucemia</option>
-   <option> Meningitis</option>
-   <option> Neumonia</option>
-   <option> SIDA</option>
-   <option> Sistema Cardiaco</option>
-   <option> Tuberculosis</option>
-   <option> Osteoporosis</option>
-                 </select>
-                 </div>
-
-                 <div class="col-lg-3">
-                 <label>Aporta FAOV</label>
-                <label class="radio-inline">
-                <input type="radio" name="aportafaovlph" id="optionsRadiosInline1" value="option1" checked>Si
-                <?php if (isset($aportafaovlph) && $aportafaovlph=="SI") echo "checked";?> 
-                </label>
-                <label class="radio-inline">
-                 <input type="radio" name="aportafaovlph" id="optionsRadiosInline2" value="option2">No
-                 <?php if (isset($aportafaovlph) && $aportafaovlph=="NO") echo "checked";?>
-                 </label>
-                 </div>
-
-                <div class="col-lg-3">
-                <label>Inscrito cne</label><br>
-                <label class="radio-inline">
-                <input type="radio" name="cne" id="optionsRadiosInline1" value="option1" checked>Si
-                <?php if (isset($cne) && $cne=="SI") echo "checked";?>
-                </label>
-                <label class="radio-inline">
-                <input type="radio" name="cne" id="optionsRadiosInline2" value="option2">No
-                <?php if (isset($cne) && $cne=="NO") echo "checked";?>
-                </label>
-                </div>
-
-                <div class="col-lg-3">
-                <label>Fecha Res. Comunidad</label>
-                <input type="date" class="form-control" name="fechacomunidad" required>
-                </div>
-
-                <div class="col-lg-2">
-                <label>Cédula jefe familia</label>
-                <input class="form-control" placeholder="Ingrese Cédula" name="cedulajefe">  
-                <?php if (isset($cedulajefe)) echo "checked";?>    
-                </div>
-
-                <div class="col-lg-2">
-                <label>Cédula padre</label>
-                <input class="form-control" name="cedulapadre" placeholder="Ingrese Cédula">  
-                <?php if (isset($cedulapadre)) echo "checked";?>  
-                </div>
-
-                <div class="col-lg-2">
-                <label>Cédula madre</label>
-                <input class="form-control" name="cedulamadre" placeholder="Ingrese Cédula">    
-                <?php if (isset($cedulamadre)) echo "checked";?> 
-                </div>
-
-    
-                <button type="submit" class="btn btn-default">
-                <span class="glyphicon glyphicon-ok"></span> Registrar
-                </button>
-                <button type="reset" class="btn btn-default">
-                <span class="glyphicon glyphicon-repeat"></span> Borrar
-                </button>-->
-        
-                </form></center>
-
-                </div>
-                <!-- /.col-lg-4 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /#page-wrapper -->
-
-    </div>
-    <!-- /#wrapper -->
-     
-
-    <!-- jQuery -->
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
-
-    <!-- Morris Charts JavaScript -->
-    <script src="../bower_components/raphael/raphael-min.js"></script>
-    <script src="../bower_components/morrisjs/morris.min.js"></script>
-    <script src="../js/morris-data.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
-
+                <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+                <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+                <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+                <script src="../bower_components/raphael/raphael-min.js"></script>
+                <script src="../bower_components/morrisjs/morris.min.js"></script>
+                <script src="../js/morris-data.js"></script>
+                <script src="../dist/js/sb-admin-2.js"></script>
 </body>
 
 </html>

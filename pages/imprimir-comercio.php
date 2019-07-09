@@ -8,19 +8,13 @@ $query = "select * from comercio where (codigo_comercio = '$_POST[codigo_comerci
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Ejemplo de tabla avanzada</title>
 </head>
- 
+
 <body>
- 
-
 <form action="BDelimina-comercio.php" method="post" name="form1" >
-
 <div class="container">
       <h1>Consulta Comercio</h1>
 
             <h2>C&oacute;digo  </h2>
-
  ');
-
   $mpdf-> Output('reporte.php','I');
-
 ?>
