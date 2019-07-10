@@ -1,17 +1,13 @@
 <?php
 include("InicioUsuario2.php");
 ?>
-
 <head>
   <meta charset="UTF-8">
   <title>Imprime</title>
-
   <link rel="stylesheet" href="media/css/dataTables.bootstrap.min.css">
   <link rel="stylesheet" href="media/css/buttons.bootstrap.min.css">
   <link rel="stylesheet" href="media/css/font-awesome.min.css">
-
 </head>
-
 <center>
   <h4>
     <font face="Arial, Helvetica, sans-serif">Ingrese código del comercio</font>
@@ -72,8 +68,6 @@ include("InicioUsuario2.php");
       $("#cuadro2").slideUp("slow");
       $("#cuadro1").slideDown("slow");
       var table = $("#dt_cliente").DataTable({
-        //"processing": true,
-        //"serverSide": true,
         "destroy": true,
         "ajax": {
           "method": "POST",
@@ -90,7 +84,6 @@ include("InicioUsuario2.php");
           " <'col-sm-6 col-md-6 col-lg-6'l>" +
           "<'col-sm-6 col-md-6 col-lg-6'p>>>",
         "buttons": [
-
           {
             extend: 'excelHtml5',
             text: '<i class="fa fa-file-excel-o"></i>',
@@ -110,7 +103,6 @@ include("InicioUsuario2.php");
       });
 
     }
-
     var idioma_espanol = {
       "sProcessing": "Procesando...",
       "sLengthMenu": "Mostrar _MENU_ registros",
